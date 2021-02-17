@@ -6,4 +6,5 @@ input.onButtonPressed(Button.A, function () {
 input.onButtonPressed(Button.B, function () {
     elapsed = input.runningTime() - start
     basic.showNumber(elapsed / 1000)
+    basic.showString(`${elapsed / 1000}ms`)
 })
